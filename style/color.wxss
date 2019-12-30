@@ -1,0 +1,50 @@
+page {
+  background: rgb(33 , 34, 35);
+}
+.container {
+  padding: 20rpx;
+  width: 100%;
+}
+.red {
+  color: #FB0055;
+}
+.bgred {
+  background: #FB0055;
+}
+.blue {
+  color: rgb(13, 95, 225);
+}
+.bgblue {
+  background: rgb(13, 95, 225);
+}
+.orange {
+  color: rgb(224, 116, 11);
+}
+.bgorange {
+  background: rgb(224, 116, 11);
+}
+.gray {
+    color: rgb(153, 153, 153);
+}
+.bggray {
+  background: rgb(50, 50, 50);
+}
+
+.borderRed {
+  border-color: #FB0055;
+}
+
+.borderBlue {
+  border-color: rgb(13, 95, 225);
+}
+
+.borderOrange {
+  border-color: rgb(224, 116, 11);
+}
+
+.lightWhite {
+  color: rgb(73, 79, 87);
+}
+.white {
+  color: #fff;
+}

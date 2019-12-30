@@ -1,14 +1,20 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "backgroundColor": "rgb(33 , 34, 35)",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#212223",
+    "navigationBarTitleText": "纪念日",
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index"
+  }
 }

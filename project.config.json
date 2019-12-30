@@ -11,8 +11,6 @@
 		"newFeature": true,
 		"coverView": true,
 		"autoAudits": false,
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -20,7 +18,10 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
